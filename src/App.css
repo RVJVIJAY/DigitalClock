@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.App{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(100, 100, 246),rgb(101, 198, 230));
+}
+.digitalclock{
+  width: 600px;
+  height: 400px;
+  background-color: rgb(87, 93, 155);
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+}
+.digitalclock h1{
+  text-align: center;
+  font-size: 38px;
+  letter-spacing: 5px;
+  font-weight: 200;
+  margin-top: 20px;
+}
+.digitalclock .time{
+  font-size: 70px;
+  margin-top: 40px;
+  text-align: center;
+  font-weight: 800;
+  color: rgb(81, 171, 245);
+}
+.digitalclock .date{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
